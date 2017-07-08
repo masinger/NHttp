@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>NHttp.Core</AssemblyName>
+    <RootNamespace>NHttp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NHttp.Portable\NHttp.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

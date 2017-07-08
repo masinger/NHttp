@@ -1,0 +1,5 @@
+C:\Users\masinger\.git\NHttp\NHttp.Portable\bin\Debug\NHttp.Shared.dll
+C:\Users\masinger\.git\NHttp\NHttp.Portable\bin\Debug\NHttp.Shared.pdb
+C:\Users\masinger\.git\NHttp\NHttp.Portable\obj\Debug\NHttp.Shared.csprojResolveAssemblyReference.cache
+C:\Users\masinger\.git\NHttp\NHttp.Portable\obj\Debug\NHttp.Shared.dll
+C:\Users\masinger\.git\NHttp\NHttp.Portable\obj\Debug\NHttp.Shared.pdb

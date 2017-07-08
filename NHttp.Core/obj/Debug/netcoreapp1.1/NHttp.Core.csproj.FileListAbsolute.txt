@@ -1,0 +1,9 @@
+C:\Users\masinger\.git\NHttp\NHttp.Core\bin\Debug\netcoreapp1.1\NHttp.Core.deps.json
+C:\Users\masinger\.git\NHttp\NHttp.Core\bin\Debug\netcoreapp1.1\NHttp.Core.dll
+C:\Users\masinger\.git\NHttp\NHttp.Core\bin\Debug\netcoreapp1.1\NHttp.Core.pdb
+C:\Users\masinger\.git\NHttp\NHttp.Core\bin\Debug\netcoreapp1.1\NHttp.Shared.dll
+C:\Users\masinger\.git\NHttp\NHttp.Core\bin\Debug\netcoreapp1.1\NHttp.Shared.pdb
+C:\Users\masinger\.git\NHttp\NHttp.Core\obj\Debug\netcoreapp1.1\NHttp.Core.csprojResolveAssemblyReference.cache
+C:\Users\masinger\.git\NHttp\NHttp.Core\obj\Debug\netcoreapp1.1\NHttp.Core.AssemblyInfo.cs
+C:\Users\masinger\.git\NHttp\NHttp.Core\obj\Debug\netcoreapp1.1\NHttp.Core.dll
+C:\Users\masinger\.git\NHttp\NHttp.Core\obj\Debug\netcoreapp1.1\NHttp.Core.pdb

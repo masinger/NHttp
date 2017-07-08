@@ -10,8 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NHttp</RootNamespace>
     <AssemblyName>NHttp</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +31,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -61,7 +64,6 @@
     <Compile Include="HttpUnknownRequestParser.cs" />
     <Compile Include="HttpUrlEncodedRequestParser.cs" />
     <Compile Include="HttpUtil.cs" />
-    <Compile Include="ILog.cs" />
     <Compile Include="LogManager.cs" />
     <Compile Include="NHttpException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,6 +77,12 @@
     <None Include="Key.snk" />
     <None Include="NHttp.nuspec" />
     <None Include="Pack NuGet Package.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NHttp.Portable\NHttp.Shared.csproj">
+      <Project>{10e9bc7a-ffcb-4fe8-98ea-a7701c8a4f47}</Project>
+      <Name>NHttp.Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
